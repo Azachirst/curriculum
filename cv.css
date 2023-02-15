@@ -16,7 +16,7 @@ header {
     position: absolute;
     width: 180px;
     height: 180px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 h1 {
@@ -25,7 +25,11 @@ h1 {
     color: azure;
     font-size: auto;
     font-family: 'Acme', sans-serif;
-    position: relative;
+
+}
+
+h2 {
+    margin-left: 15px;
 }
 
 section {
@@ -39,9 +43,6 @@ section {
 }
 
 
-.icon {
-    width: 20px;
-}
 
 #lateral {
     list-style: none;
@@ -88,3 +89,22 @@ section {
     background-color:#b2d4f7;
     border-radius: 10px
     }
+
+.botoncillos {
+text-decoration: none;
+border-radius: 5px;
+}
+
+#inicio {
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 45%;
+    background-color: rgba(122, 248, 179, 0.6);
+    position: inherit;
+   padding: 20px;
+
+}
+
+#inicio:hover {
+    background-color: rgba(122, 248, 179, 0.9);
+}
