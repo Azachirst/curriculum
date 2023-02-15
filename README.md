@@ -1,3 +1,2 @@
 # github.io
-Se agrego Favicon //
-La imagen tiene una funcion javascript para mostrar mas información
+Se agrego Favicon y la imagen tiene una funcion javascript para mostrar mas información
