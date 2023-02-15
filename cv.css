@@ -1,0 +1,90 @@
+
+body {
+    background-color: rgb(233, 233, 233);
+    font-size: x-large;
+}
+
+header {
+    background-color: darkslategray;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#foto {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align:right;
+    margin-left: auto;
+    color: azure;
+    font-size: auto;
+    font-family: 'Acme', sans-serif;
+    position: relative;
+}
+
+section {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 20px;
+    border: 1px solid #d0d0d0;
+}
+
+
+.icon {
+    width: 20px;
+}
+
+#lateral {
+    list-style: none;
+}
+
+#fotis {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    font-size: large;
+    line-height: 30px;
+}
+
+#menuH {
+    position: absolute;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+#menuhorizontal {
+    width: 100%;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    } #menuhorizontal a { width: 120px;
+    text-decoration:none;
+    text-align:center;
+    color:#000000;
+    padding:3px 5px;
+    display:block;}
+
+    #menuhorizontal li {
+        background: rgba(255, 255, 255, 0.6);
+    float:left;
+    border-radius: 10px;
+
+    }
+    
+    #menuhorizontal a:hover {
+    background-color:#b2d4f7;
+    border-radius: 10px
+    }
