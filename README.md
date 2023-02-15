@@ -1,2 +1,3 @@
 # github.io
-Proyecto 1 de argentina programa
+Se agrego Favicon
+La imagen tiene una funcion javascript para mostrar mas información
