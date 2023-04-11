@@ -40,6 +40,11 @@ $(document).ready(function(){
 
     });
 
+    $("#exitoso").hide();
+    $("#enviar").click(function (e) { 
+        $("#exitoso").show();
+        
+    });
 
  
 

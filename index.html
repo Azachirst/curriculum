@@ -93,7 +93,9 @@ crossorigin="anonymous"></script>
 </ul>
 
 <div id="contacto" class="invi"><h2>CONTACTO</h2>
-
+  <div class="alert alert-success" role="alert" id="exitoso">
+    Mensaje enviado con exito!!
+  </div>
 
   <form action="https://formsubmit.co/diegovidela@hotmail.es" method="post" id="formulario">
     <input type="text" name="name" id="name" class="form-control" placeholder="NOMBRE">
@@ -102,11 +104,13 @@ crossorigin="anonymous"></script>
     <textarea name="message" class="form-control" placeholder="MENSAJE ... " id="message"></textarea>
     <div class="clear"></div>
         <div class="col-md-8"> 
-            <button type="submit" class="btn btn-primary">ENVIAR </button>
-      </div>
+            <button type="submit" class="btn btn-primary" id="enviar">ENVIAR </button>
+        </div>
             <input type="hidden" name="_next" value="https://azachirst.github.io/curriculum/">
             <input type="hidden" name="_captcha" value="false">
- </form>
+          </form>
+</div>
+
     </div>
     </div>
 
