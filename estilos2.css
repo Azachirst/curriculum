@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(63, 3, 65) 0%, rgb(0, 0, 0) 100%);
+}
+
+#nombreh1{
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 15px;
+}
+
+#foto{
+    width: 250px;
+    z-index: 1;
+}
+
+#tecnologias{
+    position: absolute;
+    animation: turn1 36s linear infinite;
+    z-index: -1;
+    margin-left: -45px;
+    width: 340px;
+}
+
+@keyframes turn1 {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+#contenedor1{
+text-align: center;
+}
+
+#contenedor3{
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+#botonesH{
+    display: none;
+}
+
+@media only screen and (min-width: 800px){
+    #foto{
+        width: 400px;
+    }
+    #tecnologias{
+        width: 600px;
+        margin-left: -90px;
+    }
+    #menuV{
+        display: none;
+    }
+
+    #botonesH{
+        display: block;
+    }
+    #contenedor3{
+        width: 800px;
+      margin: auto;
+    }
+}
+
