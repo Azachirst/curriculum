@@ -1,39 +1,38 @@
 
 $(document).ready(function(){
-    $("#botonesH").hide();
 
 
     $(".invi").hide();
     $("#datos").fadeIn();
 
     
-    $("#opcion1").click(function (e) { 
-        $(".invi").fadeOut();
+    $(".opcion1").click(function (e) { 
+        $(".invi").hide();
         $("#datos").fadeIn();
         
     });
 
-    $("#opcion2").click(function (e) { 
-        $(".invi").fadeOut();
+    $(".opcion2").click(function (e) { 
+        $(".invi").hide()
         $("#estudios").fadeIn();
         
     });
 
 
-    $("#opcion3").click(function (e) { 
-        $(".invi").fadeOut();
+    $(".opcion3").click(function (e) { 
+        $(".invi").hide()
         $("#habilidades").fadeIn();
         
     });
 
-    $("#opcion4").click(function (e) { 
-        $(".invi").fadeOut();
+    $(".opcion4").click(function (e) { 
+        $(".invi").hide()
         $("#experiencia").fadeIn();
         
     });
 
-    $("#opcion5").click(function (e) { 
-        $(".invi").fadeOut();
+    $(".opcion5").click(function (e) { 
+        $(".invi").hide();
         $("#contacto").fadeIn();
         
     });
